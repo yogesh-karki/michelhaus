@@ -1,0 +1,80 @@
+/* stylelint-disable */
+@font-face {
+  font-family: 'GT Sectra';
+  src:
+    url('@fonts/GT-Sectra-Book.woff2') format('woff2'),
+    url('@fonts/GT-Sectra-Book.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Sectra';
+  src:
+    url('@fonts/GT-Sectra-Display-Regular-Italic.woff2') format('woff2'),
+    url('@fonts/GT-Sectra-Display-Regular-Italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* stylelint-disable @font-face {
+  font-family: 'GT Walsheim';
+  src:
+    url('@fonts/GT-Walsheim-Bold.woff2') format('woff2'),
+    url('@fonts/GT-Walsheim-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Walsheim';
+  src:
+    url('@fonts/GT-Walsheim-Bold-Oblique.woff2') format('woff2'),
+    url('@fonts/GT-Walsheim-Bold-Oblique.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Walsheim';
+  src:
+    url('@fonts/GT-Walsheim-Medium.woff2') format('woff2'),
+    url('@fonts/GT-Walsheim-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Walsheim';
+  src:
+    url('@fonts/GT-Walsheim-Medium-Oblique.woff2') format('woff2'),
+    url('@fonts/GT-Walsheim-Medium-Oblique.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Walsheim';
+  src:
+    url('@fonts/GT-Walsheim-Regular.woff2') format('woff2'),
+    url('@fonts/GT-Walsheim-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Walsheim';
+  src:
+    url('@fonts/GT-Walsheim-Regular-Oblique.woff2') format('woff2'),
+    url('@fonts/GT-Walsheim-Regular-Oblique.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+} */

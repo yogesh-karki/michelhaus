@@ -1,0 +1,17 @@
+@mixin grid xs, 2, 1.2;
+
+@media (--from-sm) {
+  @mixin grid sm, 12, 1.2;
+}
+
+@media (--from-md) {
+  @mixin grid md, 12, 1.2;
+}
+
+@media (--from-lg) {
+  @mixin grid lg, 12, 1.2;
+}
+
+@media (--from-xl) {
+  @mixin grid xl, 12, 1.2;
+}

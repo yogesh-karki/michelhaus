@@ -1,0 +1,9 @@
+@keyframes background-marquee {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: var(--move-x) 0;
+  }
+}

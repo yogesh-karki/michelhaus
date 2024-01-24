@@ -1,0 +1,67 @@
+@custom-media --until-xl (width < 1920px);
+
+@custom-media --from-xl (width >= 1920px);
+
+@custom-media --until-lg (width < 1366px);
+
+@custom-media --from-lg (width >= 1366px);
+
+@custom-media --until-md (width < 834px);
+
+@custom-media --from-md (width >= 834px);
+
+@custom-media --until-sm (width < 768px);
+
+@custom-media --from-sm (width >= 768px);
+
+@custom-selector :--heading h1, h2, h3, h4, h5, h6;
+
+:root {
+  /** Fonts */
+  --primary-font: 'GT Sectra', sans-serif;
+
+  /** Colors */
+  --white: #fff;
+  --black: #000;
+  --blue: #0074ff;
+  ----plyr-color-main: var(--blue);
+
+  /** Spacing */
+  --spacer-36: 3.6rem;
+  --spacer-32: 3.2rem;
+  --spacer-25: 2.5rem;
+  --spacer-24: 2.4rem;
+  --spacer-21: 2.1rem;
+  --spacer-17: 1.7rem;
+  --spacer-16: 1.6rem;
+  --spacer-15: 1.5rem;
+  --spacer-12: 1.2rem;
+  --spacer-11: 1.1rem;
+
+  /** Other */
+  --container-max-width: 256rem;
+  --container-padding: var(--spacer-16);
+  --gutter: 1.2rem;
+  --component-space-top: 2.53rem;
+  --component-space-bottom: 2.53rem;
+  --component-space-top-first: 15.5rem;
+  --move-x: 1px;
+
+  @media (--from-sm) {
+    --container-padding: var(--spacer-21);
+    --component-space-top: 4.07rem;
+    --component-space-bottom: 4.07rem;
+    --component-space-top-first: 20rem;
+  }
+
+  @media (--from-lg) {
+    --container-padding: var(--spacer-36);
+    --component-space-top: 6.05rem;
+    --component-space-bottom: 6.05rem;
+    --component-space-top-first: 22.6rem;
+  }
+
+  @media (--from-xl) {
+    --component-space-top-first: 27.2rem;
+  }
+}

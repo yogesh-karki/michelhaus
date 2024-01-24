@@ -1,0 +1,21 @@
+.partners_logo p {
+  border-bottom: 1px solid #707070;
+  padding-bottom: 5px;
+}
+.partners_logo img {
+  width: 301px;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 500px) {
+  .partners_logo .o-col {
+    margin-bottom: 40px;
+  }
+
+  .partners_logo img {
+    width: 165px;
+  }
+  .partners_logo.p-40 {
+    padding-bottom: 0;
+  }
+}

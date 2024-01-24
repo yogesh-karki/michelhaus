@@ -1,0 +1,33 @@
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.35s ease-in-out;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.28;
+  font-weight: normal;
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+blockquote {
+  margin: 0;
+}
+
+:--heading {
+  margin: 0;
+  font-weight: 700;
+}

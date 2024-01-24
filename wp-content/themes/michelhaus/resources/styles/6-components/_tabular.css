@@ -1,0 +1,28 @@
+.tabular ul {
+  margin-top: 8px;
+}
+.tabular ul li {
+  border-bottom: 1px solid #707070;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 0;
+}
+.tabular ul li .title {
+  width: 35%;
+}
+.tabular ul li .text {
+  width: 65%;
+}
+.tabular ul li .text ul {
+  margin-top: 0;
+}
+.tabular ul li .text ul li {
+  border-bottom: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .tabular.p-40 {
+    padding-bottom: 0;
+  }
+}

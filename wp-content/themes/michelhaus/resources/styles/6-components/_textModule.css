@@ -1,0 +1,16 @@
+.text-module {
+  background: #fcfbf9;
+}
+.text-module .title {
+  margin-bottom: 15px;
+}
+.text-module .text p {
+  margin-bottom: 15px;
+}
+.text-module .text p:last-child {
+  margin-bottom: 0;
+}
+.text-module .btn {
+  margin-top: 40px;
+  display: inline-block;
+}

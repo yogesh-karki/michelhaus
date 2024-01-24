@@ -1,0 +1,35 @@
+.o-main-wrapper {
+  position: relative;
+}
+
+.o-main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  min-height: 100svh;
+  overflow: hidden;
+}
+
+.o-container {
+  max-width: var(--container-max-width);
+  padding: 0 var(--container-padding);
+  margin: 0 auto;
+}
+
+.o-component {
+  position: relative;
+  margin-top: var(--component-space-top);
+  margin-bottom: var(--component-space-bottom);
+  z-index: 3;
+
+  &:first-child {
+    margin-top: 0;
+    padding-top: var(--component-space-top-first);
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

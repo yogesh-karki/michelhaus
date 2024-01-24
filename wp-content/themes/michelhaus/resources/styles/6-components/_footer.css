@@ -1,0 +1,31 @@
+footer {
+  background: #191414;
+  color: #fff;
+  padding: 40px 0;
+}
+footer .logo p {
+  margin-bottom: 25px;
+}
+footer .logo img {
+  width: 85%;
+}
+footer .emblem {
+  margin-top: 80px;
+}
+footer .emblem img {
+  width: 88px;
+  margin: 0 7px;
+}
+footer .contact div {
+  margin: 15px 0;
+}
+
+@media screen and (max-width: 500px) {
+  footer .emblem img {
+    width: 52px;
+  }
+
+  .contact {
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,14 @@
+@import url('1-settings/settings.css');
+
+/**
+ * Import npm dependencies
+ */
+@import url('swiper/swiper-bundle.min.css');
+
+/** Import theme styles */
+@import url('2-tools/tools.css');
+@import url('3-generic/generic.css');
+@import url('4-elements/elements.css');
+@import url('5-objects/objects.css');
+@import url('6-components/components.css');
+@import url('7-utilities/utilities.css');

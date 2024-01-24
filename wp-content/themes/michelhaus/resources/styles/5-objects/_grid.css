@@ -1,0 +1,11 @@
+.o-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.o-col {
+  position: relative;
+  flex: 1 0 0;
+  max-width: 100%;
+  width: 100%;
+}

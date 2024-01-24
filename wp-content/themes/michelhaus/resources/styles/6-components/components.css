@@ -1,0 +1,91 @@
+@import url('./_header.css');
+@import url('./_footer.css');
+@import url('./_hero.css');
+@import url('./_textModule.css');
+@import url('/_imageSlider.css');
+@import url('/_tabular.css');
+@import url('/_logoSections.css');
+
+body {
+  background: #fcfbf9;
+}
+.btn {
+  border-radius: 18px;
+  padding: 5px 16px;
+  border: 1px solid #707070;
+  background: transparent;
+}
+
+.btn:hover {
+  background: #191414;
+  color: #fff;
+}
+
+.btn.no-border {
+  border: 0;
+}
+.ml-12 {
+  margin-left: 12px;
+}
+.ml-24 {
+  margin-left: 24px;
+}
+.u-col-6 {
+  width: 50%;
+}
+.o-row {
+  margin-right: calc(var(--spacer-15) * -0.5);
+  margin-left: calc(var(--spacer-15) * -0.5);
+}
+.o-row > * {
+  padding-right: calc(var(--spacer-15) * 0.5);
+  padding-left: calc(var(--spacer-15) * 0.5);
+}
+.pt-80 {
+  padding-top: 80px;
+}
+.p-40 {
+  padding: 40px 0;
+}
+.pt-40 {
+  padding-top: 40px;
+}
+.pb-40 {
+  padding-bottom: 40px;
+}
+.swiper-button-disabled {
+  opacity: 0 !important;
+}
+
+.error {
+  margin-bottom: 40px;
+}
+.error img {
+  width: 682px;
+  max-width: 80%;
+  margin-bottom: 80px;
+}
+
+.error a {
+  border-radius: 18px;
+  padding: 5px 16px;
+  border: 1px solid #707070;
+  background: transparent;
+}
+
+.error a:hover {
+  background: #191414;
+  color: #fff;
+}
+
+@media screen and (max-width: 500px) {
+  .o-container {
+    padding: 0 5px !important;
+  }
+  .o-col {
+    flex: none;
+  }
+  .u-col-6 {
+    width: 100%;
+  }
+}
